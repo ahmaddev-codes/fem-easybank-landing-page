@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: $grayish_blue;
+  font-family: $family;
+  overflow-x: hidden;
+}
+
+a,
+a:active,
+a:visited {
+  color: $grayish_blue;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  color: $grayish_blue;
+  font-size: $body_size;
+}
+
+.button {
+  font-family: $family;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.6;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+  @include breakpoint-up(large) {
+    font-size: 1.2rem;
+  }
+}
+
+.cta-button {
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  color: $white;
+  background: $gradient;
+}
