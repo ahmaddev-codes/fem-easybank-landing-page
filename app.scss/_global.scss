@@ -10,6 +10,10 @@ body {
   color: $grayish_blue;
   font-family: $family;
   overflow-x: hidden;
+
+  &.no-scroll {
+    overflow-y: hidden;
+  }
 }
 
 a,
