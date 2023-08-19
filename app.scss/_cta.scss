@@ -87,6 +87,12 @@
             left: -2rem;
             margin: 0;
             width: 153%;
+
+            @include breakpoint-up(large) {
+              top: -13rem;
+              left: -8rem;
+              width: 168%;
+            }
           }
 
           .cta-desktop-image {
@@ -94,6 +100,12 @@
             position: absolute;
             top: 0;
             right: -7rem;
+
+            @include breakpoint-up(large) {
+              top: -7rem;
+              right: -8rem;
+              width: 120%;
+            }
           }
         }
       }
@@ -121,7 +133,7 @@
 
         @include breakpoint-up(large) {
           font-size: 4rem;
-          margin-top: 15rem;
+          margin-top: 8rem;
           padding-right: 25%;
         }
       }
