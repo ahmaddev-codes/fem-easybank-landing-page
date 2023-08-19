@@ -234,7 +234,7 @@ header .container .overlay {
   }
   header .container .desktop-menu ul li a {
     position: relative;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 700;
     color: hsl(233, 8%, 62%);
   }
@@ -352,11 +352,27 @@ header .container .hamburger span {
     margin: 0;
     width: 153%;
   }
+}
+@media (min-width: 64em) and (min-width: 64em) {
+  .cta-container .cta-content .cta-image .cta-images-desktop .cta-desktop-bg {
+    top: -13rem;
+    left: -8rem;
+    width: 168%;
+  }
+}
+@media (min-width: 64em) {
   .cta-container .cta-content .cta-image .cta-images-desktop .cta-desktop-image {
     display: block;
     position: absolute;
     top: 0;
     right: -7rem;
+  }
+}
+@media (min-width: 64em) and (min-width: 64em) {
+  .cta-container .cta-content .cta-image .cta-images-desktop .cta-desktop-image {
+    top: -7rem;
+    right: -8rem;
+    width: 120%;
   }
 }
 .cta-container .cta-content .cta-text {
@@ -383,7 +399,7 @@ header .container .hamburger span {
 @media (min-width: 64em) {
   .cta-container .cta-content .cta-text h1 {
     font-size: 4rem;
-    margin-top: 15rem;
+    margin-top: 8rem;
     padding-right: 25%;
   }
 }
